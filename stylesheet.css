@@ -1,0 +1,275 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+/*Header*/ 
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #navn{
+	float: left;
+}
+
+header #navn h1 {
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .hightlight, header .current a{
+	color: #E8491D;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #CCCCCC;
+	font-weight: bold;
+}
+/* Banner*/
+#banner {
+	min-height: 900px;
+	background: url(fullbanner.jpg) no-repeat;
+	text-align: center;
+	color: #ffffff;
+}
+
+#banner h1 {
+	margin-top: 230px;
+	font-size: 70px;
+	margin-bottom: 10px;
+	text-shadow: 0px 2px 9px #000;
+}
+
+#banner h2 {
+	text-shadow: 0px 2px 9px #000;
+}
+
+#banner p{
+	font-size: 20px;
+	text-shadow: 0px 2px 9px #000;
+}
+
+/* om mig */
+
+
+#evner {
+	float: left;
+	padding-left: 50px;
+	width: 30%;
+	padding-top: 27px;
+}
+
+/* Hvad kan jeg?*/
+
+.skills {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 35px;
+	color: #ffffff;
+}
+
+.premiere {
+	width: 90%;
+	background-color: #4CAF50;
+}
+
+.effects {
+	width: 70%;
+	background-color: #2196F3;
+}
+
+.html {
+	width: 25%;
+	background-color: #ff6600;
+}
+
+.css {
+	width: 25%;
+	background-color: #ff6600;
+}
+
+.photoshop {
+	width: 50%;
+	background-color: #BBB404;
+}
+
+#ommig {
+	float: left;
+	width: 35%;
+	padding-bottom: 0px;
+}
+
+#ommig p {
+	font-size: 20px;
+}
+
+.foto {
+	float: right;
+	padding-top: 150px;
+	width: 27%;
+}
+
+.page-title {
+	font-size: 30px;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	padding-top: 5px;
+	color: #ffffff;
+	background-color: #35424a;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+}
+
+/* Projekter */
+
+main {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin: 24px 0 24px 0;
+}
+.thumbnail {
+	width: 30%;
+	background-color: #35424a;
+	text-align: center;
+	font-size: 0.8em;
+	border-radius: 4px;
+	padding: 8px;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.28);
+}
+.thumbnail a {
+	color: white;
+	text-decoration: none;
+}
+.thumbnail img {
+	border-bottom: solid 3px #E8491D;
+	width: 300px;
+	height: 200px;
+	border-radius: 4px;
+}
+
+.info {
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color: #35424a;
+	font-size: 25px;
+	padding-top: 50px;
+}
+
+.projekter {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 50px;
+	color: #35424a;
+	border-bottom: solid 3px #E8491D;
+}
+
+/* Projektside */
+
+.projektside {
+	display: flex;
+	background-color: #35424a; 
+	width: 90%;
+	border-radius: 4px;
+	overflow: hidden;
+	border-bottom: solid 3px #E8491D;
+	margin-top: 30px;
+	min-width: 90%;
+}
+.projektimage {
+	width: 50%;
+	overflow: hidden;
+	background-size: cover;
+    background-position: center;
+	left: -50%;
+}
+
+.projektimage img {
+	position: relative;
+	display: block;
+	height: 300px;
+	width: 550px;
+}
+
+.projektimage p {
+	text-align: center;
+	margin-top: 320px;
+	font-size: 1.5em;
+	color: white;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.59);
+	padding: 8px;
+	border-bottom: solid 1px #E8491D;
+}
+
+.projektimage a {
+	text-decoration: none;
+	color: white;
+}
+
+.projektimage a:hover {
+	color: #E8491D;
+}
+
+.projekttekst{
+	width: 50%;
+	color: white;
+}
+.projekttekst h1 {
+	margin: 16px;
+	border-bottom: solid 3px #E8491D;
+	font-size: 2.5em;
+}
+.projekttekst p {
+	margin: 16px;
+	font-size: 1.2em;
+}
