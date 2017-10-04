@@ -175,6 +175,7 @@ main {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	margin: 24px 0 24px 0;
+	padding-bottom: 100px;
 }
 .thumbnail {
 	width: 30%;
